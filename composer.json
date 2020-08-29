@@ -55,6 +55,11 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "scripts": {
+        "pre-autoload-dump": [
+            "@php artisan vendor:publish --provider=Aldhix\\Altar\\ServiceProvider --force",
+            "@php artisan vendor:publish --provider=Aldhix\\Altaradmin\\ServiceProvider --force",
+            "@php artisan vendor:publish --provider=Aldhix\\Altarsiteprofile\\ServiceProvider --force"
+        ],
         "post-autoload-dump": [
             "Illuminate\\Foundation\\ComposerScripts::postAutoloadDump",
             "@php artisan package:discover --ansi"
@@ -63,10 +68,7 @@
             "@php -r \"file_exists('.env') || copy('.env.example', '.env');\""
         ],
         "post-create-project-cmd": [
-            "@php artisan key:generate --ansi",
-            "@php artisan vendor:publish --provider=Aldhix\\Altar\\ServiceProvider --force",
-            "@php artisan vendor:publish --provider=Aldhix\\Altaradmin\\ServiceProvider --force",
-            "@php artisan vendor:publish --provider=Aldhix\\Altarsiteprofile\\ServiceProvider --force"
+            "@php artisan key:generate --ansi"
         ]
     }
 }
