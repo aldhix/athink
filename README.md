@@ -12,6 +12,13 @@ Setelah melakukan setting koneksi database, berikutnya pada terminal di direktor
 
     php artisan migrate:fresh
     php artisan db:seed
+    php artisan serv
+
+Pada web browser ketikan alamat [http://localhost:8000/admin/login](http://localhost:8000/admin/login) , login dengan :
+
+    email : admin@localhost.com
+    password : password
+
 
 ## Includes
 - Laravel 7 [https://laravel.com/](https://laravel.com/)
@@ -20,4 +27,3 @@ Setelah melakukan setting koneksi database, berikutnya pada terminal di direktor
 - Altar [https://github.com/aldhix/altar](https://github.com/aldhix/altar)
 - Altar Admin [https://github.com/aldhix/altaradmin](https://github.com/aldhix/altaradmin)
 - Altar Site Profile [https://github.com/aldhix/altarsiteprofile](https://github.com/aldhix/altarsiteprofile)
-
