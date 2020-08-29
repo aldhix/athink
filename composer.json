@@ -66,7 +66,7 @@
             "@php artisan key:generate --ansi",
             "@php artisan vendor:publish --provider=Aldhix\\Altar\\ServiceProvider --force",
             "@php artisan vendor:publish --provider=Aldhix\\Altaradmin\\ServiceProvider --force",
-            "@php artisan vendor:publish --provider=Aldhix\\Altarsiteprofile\\ServiceProvider --force",
+            "@php artisan vendor:publish --provider=Aldhix\\Altarsiteprofile\\ServiceProvider --force"
         ]
     }
 }
