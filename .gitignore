@@ -1,7 +1,7 @@
 /node_modules
-/public/adminlte
 /public/hot
 /public/storage
+/public/adminlte
 /storage/*.key
 /vendor
 .env.backup
