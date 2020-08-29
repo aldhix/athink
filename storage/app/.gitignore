@@ -1,4 +1,4 @@
 *
 !public/
 !.gitignore
-|site.profile.json
+!site.profile.json

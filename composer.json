@@ -1,10 +1,12 @@
 {
-    "name": "laravel/laravel",
+    "name": "aldhix/athink",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "Altar Paket (Altar, Altar Admin, Altar Site Profile) Laravel",
     "keywords": [
         "framework",
-        "laravel"
+        "laravel",
+        "aldhix",
+        "altar"
     ],
     "license": "MIT",
     "require": {
