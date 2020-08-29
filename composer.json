@@ -1,12 +1,13 @@
 {
     "name": "aldhix/athink",
     "type": "project",
-    "description": "Altar Paket (Altar, Altar Admin, Altar Site Profile) Laravel",
+    "description": "Altar Three Packages (Altar, Altar Admin, Altar Site Profile) Laravel",
     "keywords": [
         "framework",
         "laravel",
         "aldhix",
-        "altar"
+        "altar",
+        "athink"
     ],
     "license": "MIT",
     "require": {
