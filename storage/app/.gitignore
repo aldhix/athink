@@ -1,0 +1,4 @@
+*
+!public/
+!.gitignore
+|site.profile.json
