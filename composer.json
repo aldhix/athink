@@ -14,7 +14,7 @@
         "php": "^7.2.5",
         "aldhix/altar": "^1.0",
         "aldhix/altaradmin": "^1.0",
-        "aldhix/altarsiteprofile": "^1.0",
+        "aldhix/altarsiteprofile": "^01.0",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^6.3",

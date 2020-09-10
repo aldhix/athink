@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4736a98a87391bf59b85884feb749917",
+    "content-hash": "9f6a9caf26867321691b21056f19cc29",
     "packages": [
         {
             "name": "aldhix/altar",
@@ -103,16 +103,16 @@
         },
         {
             "name": "aldhix/altarsiteprofile",
-            "version": "v1.0",
+            "version": "v01",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aldhix/altarsiteprofile.git",
-                "reference": "53cbeff3c53056ac16b265816ae04f4b8ffe8995"
+                "reference": "d0888ca7dfdf548a022db07cea4e4f4b6ea1bc53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aldhix/altarsiteprofile/zipball/53cbeff3c53056ac16b265816ae04f4b8ffe8995",
-                "reference": "53cbeff3c53056ac16b265816ae04f4b8ffe8995",
+                "url": "https://api.github.com/repos/aldhix/altarsiteprofile/zipball/d0888ca7dfdf548a022db07cea4e4f4b6ea1bc53",
+                "reference": "d0888ca7dfdf548a022db07cea4e4f4b6ea1bc53",
                 "shasum": ""
             },
             "type": "library",
@@ -146,7 +146,7 @@
                 "aldhix",
                 "altarsiteprofile"
             ],
-            "time": "2020-08-29T16:59:22+00:00"
+            "time": "2020-09-01T21:11:48+00:00"
         },
         {
             "name": "asm89/stack-cors",
