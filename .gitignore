@@ -2,6 +2,8 @@
 /public/hot
 /public/storage
 /public/adminlte
+/public/altar
+/public/images
 /storage/*.key
 /vendor
 .env.backup
